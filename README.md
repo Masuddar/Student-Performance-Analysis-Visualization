@@ -1,79 +1,34 @@
-📊 Students Performance Analysis & Visualization
-A Streamlit web app for Exploratory Data Analysis (EDA) and Data Visualization of student performance.
+# 📊 Students Performance Analysis & Visualization
 
-🛠 Features
-✅ Home Page: View dataset preview and descriptive statistics.
-✅ Data Visualization: Interactive graphs to analyze scores based on gender, race, and parental education.
-✅ Advanced Analysis: Boxplots, scatter plots, and insights on test preparation & lunch effects.
-✅ Download Data: Export cleaned data for further analysis.
+A simple and interactive **Streamlit web app** for exploring and visualizing student performance data.
 
-🚀 Installation & Setup
-1️⃣ Clone the Repository
-bash
-Copy
-Edit
+## ⭐ Features
+- **Home Page:** Dataset preview & descriptive statistics  
+- **Interactive Visualizations:** Gender, race, parental education, lunch type, test preparation  
+- **Advanced Analysis:** Boxplots, scatter plots, score comparisons  
+- **Data Export:** Download cleaned dataset as CSV  
+
+## 🚀 Installation
+```bash
 git clone https://github.com/yourusername/Student-Performance-Analysis.git
 cd Student-Performance-Analysis
-2️⃣ Create Virtual Environment (Recommended)
-bash
-Copy
-Edit
+
 python -m venv venv
-source venv/bin/activate  # macOS/Linux
-venv\Scripts\activate  # Windows
-3️⃣ Install Dependencies
-bash
-Copy
-Edit
+source venv/bin/activate       # macOS/Linux
+venv\Scripts\activate          # Windows
+
 pip install -r requirements.txt
-4️⃣ Run the Streamlit App
-bash
-Copy
-Edit
 streamlit run app.py
-📂 Project Structure
-bash
-Copy
-Edit
+```
+
+## Project Structure
+
 📁 Student-Performance-Analysis
-│-- 📄 app.py                # Main Streamlit app
-│-- 📄 requirements.txt      # Required dependencies
-│-- 📄 README.md             # Project documentation
-│-- 📂 data/                 # Dataset storage
-│-- 📄 Cleaned_Students_Performance.csv  # Dataset file
-📊 Dataset Overview
-The dataset includes student scores in Math, Reading, and Writing, along with demographic factors like:
-
-Gender
-Race/Ethnicity
-Parental Level of Education
-Lunch Type
-Test Preparation Course
-📸 Sample Visualizations
-🎯 Score Distribution by Gender
-📊 Histogram of Math, Reading, and Writing Scores
-
-📊 Average Scores by Race/Ethnicity
-📉 Bar chart comparing performance
-
-🔍 Advanced Analysis
-📈 Scatter plots & box plots for deeper insights
-
-👨‍💻 Tech Stack
-🔹 Python (pandas, numpy, plotly)
-🔹 Streamlit (for the web app)
-🔹 Plotly (for interactive charts)
-
-📌 Future Improvements
-🚀 Add machine learning models for student performance prediction
-📊 Add more interactive filtering options
-📥 Allow user-uploaded datasets
-
-🙌 Contributing
-Want to improve this project? Feel free to fork and submit a Pull Request (PR)!
+│-- app.py
+│-- requirements.txt
+│-- README.md
+│-- Cleaned_Students_Performance.csv
+│-- data/
 
 
-
-
-
-
+### Thanks, feel free to contact 
